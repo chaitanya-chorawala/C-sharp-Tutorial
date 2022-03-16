@@ -284,6 +284,11 @@ namespace C_sharp_Tutorial
             employeeName.ToList().ForEach(emp => Console.WriteLine(emp.Name));           
         }        
 
+        public void MaxEmployeeID()
+        {
+            Console.WriteLine(employeeList.Max(emp => emp.EmployeeID));
+        }
+
         public void DictionaryImplemetation()
         {
             string line = "Dictionary cannot include duplicate or null keys, whereas values can be duplicated or null.";
