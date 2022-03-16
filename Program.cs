@@ -192,5 +192,8 @@ myCollection.SelectMethod();
 Console.WriteLine("\n----------------MAX EmployeeID--------------\n");
 myCollection.MaxEmployeeID();
 
+Console.WriteLine("\n----------------MIN EmployeeID--------------\n");
+myCollection.MaxEmployeeID();
+
 Console.WriteLine("\n----------------Dictionary Implemetation--------------\n");
 myCollection.DictionaryImplemetation();
