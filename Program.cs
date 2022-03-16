@@ -189,5 +189,8 @@ myCollection.GroupJoinEmployeeWithdepartment();
 Console.WriteLine("\n----------------Select method--------------\n");
 myCollection.SelectMethod();
 
+Console.WriteLine("\n----------------MAX EmployeeID--------------\n");
+myCollection.MaxEmployeeID();
+
 Console.WriteLine("\n----------------Dictionary Implemetation--------------\n");
 myCollection.DictionaryImplemetation();
